@@ -1,19 +1,38 @@
-Open GEOData UBC
-================
+UBC OpenData
+============
 
-This webpage contains GEOdata links for the University of British Columbia Vancouver. 
-Download links are available in the following GIS file formats:
+Here are a list of GitHub repositories that contain UBC geosptaial data:
+* [ubcv-buildings](https://github.com/UBCGeodata/ubcv-buildings)
+* [ubcv-parking](https://github.com/UBCGeodata/ubcv-parking)
+* [ubcv-locations](https://github.com/UBCGeodata/ubcv-locations)
+* [ubcv-routes](https://github.com/UBCGeodata/ubcv-routes)
+* [ubcv-landscape](https://github.com/UBCGeodata/ubcv-landscape)
+* [ubcv-context](https://github.com/UBCGeodata/ubcv-context)
 
-* fgdb    - File GeoData Base
+Data are available in the following file formats where appropriate:
+
+* fgdb    - File Geodatabase
 * geojson - Geographic JavaScript Notation
 * tableau - Tableau Data Extract
+* csv 
 
-Geographical features which can be accessed include UBC Vancouver 
-building, location, parking, routes, landscape and contextual data.
+Software such as ArcGIS, QGIS are the most preferred programs to make use of this data. 
 
-Geographic Information Software such as ArcGIS, QGIS or PostGIS are the most
-preferred programs to make use of this data. On how to implement the data packages please refer to their respective FAQ for each software package.
+GitHub
+------
+* GitHub is used most often to host code for version control and collaboration. 
+* It is also an easy way to make geospatial data browsable, viewable and downloadable.
+* Information about using GitHub: [here](https://guides.github.com/activities/hello-world/)
 
-If you need any help on how to use GitHub please refer to the following:
-https://guides.github.com/activities/hello-world/
-  - 
+### Viewing spatial data in the repositories
+* GitHub uses [Leaflet](http://leafletjs.com/) to display any geojson file.
+* You can click on any .geojson file and it will display as a map, allowing you to click on features.
+* For example: [UBC Vancouver Buildings](https://github.com/UBCGeodata/ubcv-buildings/blob/master/geojson/ubcv_buildings.geojson)
+
+### Downloading data
+* You can get the whole repository of data by clicking on the green 'Clone or download' button on the right of page.
+* For only a single type of data: 
+ * Navigate to the location of the data you are interested in.
+ *  For example  ubcv-locations > fgdb > ubcv_locations.gdb.zip 
+ * Click the 'Download' button on the right side of the screen.
+ * For a text file (like .geojson), you can right-click on the 'download' or 'raw' button and choose 'save link as'.
