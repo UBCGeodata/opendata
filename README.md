@@ -31,8 +31,9 @@ GitHub
 
 ### Downloading data
 * You can get the whole repository of data by clicking on the green 'Clone or download' button on the right of page.
-* For only a single type of data: 
- * Navigate to the location of the data you are interested in.
- *  For example  ubcv-locations > fgdb > ubcv_locations.gdb.zip 
- * Click the 'Download' button on the right side of the screen.
- * For a text file (like .geojson), you can right-click on the 'download' or 'raw' button and choose 'save link as'.
+
+For only a single type of data: 
+* Navigate to the location of the data you are interested in.
+*  For example  ubcv-locations > fgdb > ubcv_locations.gdb.zip 
+* Click the 'Download' button on the right side of the screen.
+* For a text file (like .geojson), you can right-click on the 'download' or 'raw' button and choose 'save link as'.
