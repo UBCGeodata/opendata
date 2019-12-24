@@ -1,6 +1,7 @@
 UBC OpenData
 ============
-
+* These repositories below will be replaced by data hosted at this one repository:
+* [ubc-geospatial-opendata](https://github.com/UBCGeodata/ubc-geospatial-opendata/)
 Here are a list of GitHub repositories that contain UBC geosptaial data:
 * [ubcv-buildings](https://github.com/UBCGeodata/ubcv-buildings)
 * [ubcv-parking](https://github.com/UBCGeodata/ubcv-parking)
